@@ -128,6 +128,26 @@ void draw() {
 
 
   //Drawing Target
+  fill(249);
+  rect(100,100,75,400);
+  fill(1);
+  rect(100,150,75,300);
+  fill(0,0,250);
+  rect(100,200,75,200);
+  fill(250,0,0);
+  rect(100,250,75,100);
+  fill(200,200,50);
+  rect(100,280,75,40);
   
+  //legs and back
+  fill(#A52A2A);
+  rect(170,100,25,400);
+  
+  beginShape();
+  vertex(195,250);
+  vertex(250,500);
+  vertex(270,500);
+  vertex(195,200);
+  endShape();
 }
 
