@@ -2,7 +2,7 @@
 //Max Kingsley, 2015
 
 int x = 50;
-int[] y = new int [3];
+int[] y = new int [1];
 
 
 void setup() {
@@ -53,7 +53,48 @@ void draw() {
 
 
   //character concepts
+//stick guy
+  fill(0);
+  rect(295, 210, 10, 150);
 
+  fill(250);
+  ellipse(300, 210, 75, 75);
+
+  //right arm
+  fill(0);
+  beginShape();
+  vertex(300,250);
+  vertex(250,300);
+  vertex(350,265);
+  vertex(350,256);
+  vertex(255,295);
+  vertex(305,250);
+  endShape();
+  
+  //left arm
+  beginShape();
+  vertex(300,250);
+  vertex(450,260);
+  vertex(450,270);
+  vertex(300,255);
+  endShape();
+  
+  //Right Leg
+  beginShape();
+  vertex(295,360);
+  vertex(250,500);
+  vertex(260,500);
+  vertex(300,360);
+  endShape();
+  
+  //Left Leg
+  beginShape();
+  vertex(300,360);
+  vertex(350,500);
+  vertex(360,500);
+  vertex(305,360);
+  endShape();
+  
   //bow (undrawn)
   fill(0);
   rect(350, 50, 2, 400);
@@ -85,14 +126,8 @@ void draw() {
   fill(0);
   triangle(530, 245, 530, 255, 560, 250);
 
-  //stick guy
-  fill(0);
-  rect(295, 210, 10, 150);
 
-  fill(250);
-  ellipse(300, 210, 75, 75);
-
-  //beginShape();
-  // vertex
+  //Drawing Target
+  
 }
 
