@@ -57,17 +57,17 @@ void draw() {
 
   if (xPositionCloud1 > width + radius) {
     
-    xPositionCloud1 *= 0;
+    xPositionCloud1= 0;
     
   }
   
-  if (xPositionCloud2 > width -200 + radius1) {
+  if (xPositionCloud2 > width +200 + radius1) {
     
     xPositionCloud2= 0;
     
   }
   
-  if (xPositionCloud3 > width -450 + radius2) {
+  if (xPositionCloud3 > width +400 + radius2) {
     
     xPositionCloud3= 0;
     
